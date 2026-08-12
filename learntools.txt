@@ -1,3 +1,4 @@
 1. dirb
 2. shodan - Shodan is often described as a search engine for the Internet of Things (IoT), but that undersells it. Shodan continuously scans the internet, searching for networking equipment, industrial control systems, traffic cameras, and virtually anything else with a public network connection to see what's running and where.
 3. VirusTotal
+netcat
