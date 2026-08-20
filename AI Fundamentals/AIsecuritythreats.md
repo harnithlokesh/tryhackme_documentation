@@ -144,3 +144,37 @@ Adoption of ai into enterprise is the right move however, if the AI adoption is 
 
 **Model Monitoring :** monitoring deployed models isn't just about catching perfomance drops etc, it also means you will have a chance to find anomalies etc.
 
+
+
+
+
+
+**_TEST ANSWERS_**
+
+Overfitting occurs when a model memorises its training data rather than learning the underlying pattern, causing it to fail on new, unseen data.
+
+
+Unsupervised learning works with unlabelled data, finding its own structure — making it ideal for anomaly detection in network traffic.
+
+
+Supervised learning trains on labelled data — every training example has the correct answer attached. Spam classification is a classic example.
+
+
+The output layer is the final layer in a neural network. It produces the prediction — in digit recognition, each output node corresponds to a possible digit.
+
+
+DL algorithms can take raw, unstructured input and determine their own features — no human labelling required. This is what makes DL scalable ML.
+
+
+Backpropagation compares the model's guess against the correct answer and adjusts parameters to make the right answer more likely next time.
+
+
+Attention lets transformers calculate the importance of every word relative to every other word in a sentence simultaneously, resolving ambiguity and enabling parallel processing.
+
+
+RLHF — Reinforcement Learning from Human Feedback — is the process that shapes a raw pre-trained language model into a usable, helpful assistant by incorporating human reviewer judgements.
+
+
+AI is the overarching field. ML is a subfield of AI. Deep Learning is a subfield of ML. LLMs are advanced DL models — each layer is more specific than the last.
+
+
