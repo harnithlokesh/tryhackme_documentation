@@ -133,3 +133,14 @@ Potential Compromise
 AI can give security teams **speed, scale, and analytical support**, while human analysts remain responsible for validating findings and making security decisions.
 
 **AI + Human Expertise = More Effective Defense**
+
+
+**Securing AI**
+
+Adoption of ai into enterprise is the right move however, if the AI adoption is not secure enough it not only does not protect the systems but it also introduces new vulnerabilties to the enterprise.
+
+
+**securing ai models :** first line of defence is controlling who gets access to the ai mechanisms.
+
+**Model Monitoring :** monitoring deployed models isn't just about catching perfomance drops etc, it also means you will have a chance to find anomalies etc.
+
