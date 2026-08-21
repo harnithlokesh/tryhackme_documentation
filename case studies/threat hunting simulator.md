@@ -39,4 +39,3 @@ QueryResults: ::ffff:127.0.0.1 _request was made on a local server_
 we approve the hypothesis 
 
 
-    
