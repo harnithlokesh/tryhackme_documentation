@@ -26,3 +26,24 @@ _1. where did the data come from?_
 _2. when was the data collected?_
 _3. has it been modified since?_
 
+
+
+
+
+__BUILDING THE MOEDL: KEY CONCEPTS__
+
+
+**_Epochs and Overfitting_**
+
+*Epochs:* an epoch is one complete pass of a training algorithm through a dataset.
+
+*overfitting:* occurs when the model is trained so frequently that, instead of recognising patterns, it starts to memorise existing data.
+
+*model validation:* to catch overfitting early, some part of the data is never used for training at all, called the validation set.
+
+_*pruning*_ removes parameters that contribute little to predictions, shrinking model size.
+
+_*Quantisation*_ reduces precision of weights to cut memory and compute requirements.
+
+_*Federated Learning*_ each model is trained on a decentralized devices that train them using their local data. 
+
