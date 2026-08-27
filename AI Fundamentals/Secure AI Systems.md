@@ -33,4 +33,19 @@ _______________________________________________________________________
 
 *system-to-user:* generated response is delivered to the user
 
+_______________________________________________________________________
+_______________________________________________________________________
+
+**OWASP LLM TOP 10**
+
+**LLM01**_Prompt injection:_ manipulating llm behaviour through crafted input.
+**LLM02**_Sensitive information disclosure:_ leaking confidential information. PII. or system details through responses.
+**LLM03**_Supply chain:_ compromised pre-trained models, datasets and third party dependancies introduced before deployement.
+**LLM04**_Data and model poisoning:_ corrupt model data, or weights to alter behavious.
+**LLM05**_Improper Output handling:_ LLM output is causing injection downstream systems.
+**LLM06**_Excessive agency:_ AI components with more previlege or autonomy than necessary.
+**LLM07**_System prompt leakage:_ Exposure of system level instructions and internal configuration.
+**LLM08**_Vector and embedding weaknesses:_ Exploiting retrieval mechanisms and embedding pipelines.
+**LLM09**_Misinformation:_ LLM generating false or misleading content.
+**LLM010**_Unbounded Consumption:_ Resource exhaustion, cost explosion, denial of service.
 
