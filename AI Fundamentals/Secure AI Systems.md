@@ -49,3 +49,45 @@ _______________________________________________________________________
 **LLM09**_Misinformation:_ LLM generating false or misleading content.
 **LLM010**_Unbounded Consumption:_ Resource exhaustion, cost explosion, denial of service.
 
+__________________________________________________________________________________________________________________________________________________________________________________
+
+
+_unbounded consumption:_ attacks that drive up the resources, longer the input, the more computing power the model uses.
+**defence:** rate limiting, input length, cost rate limiting.
+
+_system prompt leakage:_ the model reveals hidden operating insutrctions to someone who should not have access to the same.
+**defence:** never put your credentials or any secrets into the model.
+
+_improper output handling:_ llm outputs being improperly handled by using it as is without assessing it first hand.
+**defence:** never trust LLM output as is.
+
+_Excessive agency:_ giving AI systems more tools than necessary.
+**defence:** assign least previlege to the LLM models.
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+__DEFENCE IN DEPTH FOR AI SYSTEMS__
+![alt text](image.png)
+
+_User-to-system_	Input length validation, rate limiting, content filtering, and authentication.
+
+_System-to-LLM_	Prompt injection detection, system prompt hardening, context size limits.
+
+_LLM-to-tools_	Parameterised queries, least-privilege tool permissions, and approval workflows for write operations.
+
+_System-to-external-data_	Source validation for retrieved documents, content sanitisation before inclusion in prompts.
+
+_System-to-user_	Output sanitisation, PII redaction, response length limits, and content safety filters.
+
+
+*LEAST PREVILEGE*
+
+*Database access:* Read-only by default. Write permissions require explicit justification for each specific operation.
+
+*API tokens:* Scoped to the exact endpoints the tool needs. Never use admin or root-level tokens.
+
+*Tool allowlisting:* The LLM can only invoke functions that have been explicitly registered. Any attempt to call an unregistered function is blocked and logged.
+
+*Human-in-the-loop:* Any operation that modifies state (deploying code, updating records, sending communications) requires human approval before execution.
+
+
